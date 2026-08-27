@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saudi Falcons Project</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Iceland', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      animation: flicker 2s ease-in-out 1;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 1rem;
+      margin: auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      transform: scale(1.1);
+      transition: transform 0.5s ease;
+      border-radius: 5px;
+    }
+
+    .title {
+      font-size: 2.8rem;
+      margin: 1rem 0;
+      font-weight: normal;
+    }
+
+    .quote {
+      font-size: 1.8rem;
+      margin-top: 0.5rem;
+      color: #ffffff;
+      font-weight: normal;
+    }
+
+    .footer-text {
+      color: #ffffff;
+      margin-top: 2rem;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+
+    @media (max-width: 600px) {
+      .title {
+        font-size: 1.5rem;
+      }
+
+      .quote {
+        font-size: 1rem;
+      }
+    }
+
+    @keyframes flicker {
+      0% { opacity: 0; }
+      10% { opacity: 0.3; }
+      20% { opacity: 1; }
+      30% { opacity: 0.7; }
+      40% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- كود تشغيل الصوت -->
+  <audio autoplay loop>
+    <source src="aa.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <a href="https://i.ibb.co/JR65rjqJ/Screenshot-2026-08-26-051257.png">
+      <img src="https://i.ibb.co/JR65rjqJ/Screenshot-2026-08-26-051257.png" alt="Saudi Falcons Image" />
+    </a>
+
+    <div class="title">
+      H4cked By Skolzr
+    </div>
+
+    <div class="quote">
+      “#Your defenses were just an illusion. We are everywhere.”
+    </div>
+
+    <div class="quote">
+      “Saudi Falcons were here. Your security ends where our power begins.”
+    </div>
+
+    <div class="footer-text">
+      [ - ] SECURED BY | SAUDI FALCONS [ - ]
+    </div>
+  </div>
+</body>
+</html>
